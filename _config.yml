@@ -9,7 +9,7 @@ relative_permalinks: true
 # Setup
 title:            Dakota Sanchez
 tagline:          'site'
-description:      'PNW-based Software Engineer'
+description:      'PNW-Based Software Engineer'
 url:              http://dakotasanchez.com
 baseurl:          /
 
@@ -20,7 +20,7 @@ author:
 paginate:         5
 
 # Custom vars
-version:          1.0
+version:          1.1
 
 github:
   repo:           https://github.com/dakotasanchez
