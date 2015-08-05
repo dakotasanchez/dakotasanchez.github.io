@@ -12,6 +12,7 @@ tagline:          'site'
 description:      'PNW-Based Software Engineer'
 url:              http://dakotasanchez.com
 baseurl:          /
+resume_url:		  '/#Résumé'
 
 author:
   name:           'Dakota Sanchez'
