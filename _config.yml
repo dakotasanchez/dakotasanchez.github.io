@@ -12,6 +12,7 @@ tagline:          'site'
 description:      'PNW-Based Software Engineer'
 url:              http://dakotasanchez.com
 baseurl:          /
+about_me_url:     '/#About me'
 resume_url:		  '/#Résumé'
 
 author:

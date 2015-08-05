@@ -13,8 +13,11 @@
     </div>
 
     <nav class="sidebar-nav">
-      <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}">Home</a>
-      <a class="sidebar-nav-item" href="{{ site.resume_url }}">Résumé</a>
+<!--      <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}">Home</a> -->
+      <a class="sidebar-nav-item" href="{{ site.about_me_url }}">About me</a>
+      <!--<a class="sidebar-nav-item" href="{{ site.resume_url }}">Résumé</a>-->
+      <!--<a class="sidebar-nav-item" id="about-button">About me</a>-->
+      <a class="sidebar-nav-item" id="resume-button">Résumé</a>
 <!--  
       {% comment %}
         The code below dynamically generates a sidebar nav of pages with
@@ -38,3 +41,13 @@
      <p>&copy; {{ site.time | date: '%Y' }} Dakota Sanchez</p>
   </div>
 </div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+<script>
+  $("#resume-button").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#Résumé").offset().top
+    }, 1000);
+  });
+</script>
