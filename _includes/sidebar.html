@@ -2,7 +2,7 @@
   <div class="container sidebar-sticky">
     <div class="sidebar-about">
       <div class="mobileHide">
-        <img class="sidebar-about" src="files/face.jpg" />
+        <img class="sidebar-about" src="files/portrait.jpg" />
       </div>
       <h1>
         <p>
@@ -17,7 +17,7 @@
       <a class="sidebar-nav-item" href="{{ site.about_me_url }}">About me</a>
       <!--<a class="sidebar-nav-item" href="{{ site.resume_url }}">Résumé</a>-->
       <!--<a class="sidebar-nav-item" id="about-button">About me</a>-->
-      <a class="sidebar-nav-item" id="resume-button">Résumé</a>
+      <a class="sidebar-nav-item" id="resume-button">Resume</a>
 <!--  
       {% comment %}
         The code below dynamically generates a sidebar nav of pages with
@@ -47,7 +47,7 @@
 <script>
   $("#resume-button").click(function() {
     $('html, body').animate({
-        scrollTop: $("#Résumé").offset().top
+        scrollTop: $("#Resume").offset().top
     }, 1000);
   });
 </script>

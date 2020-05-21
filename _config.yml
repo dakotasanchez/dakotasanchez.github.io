@@ -10,11 +10,11 @@ permalink:        pretty
 # Setup
 title:            Dakota Sanchez
 tagline:          'site'
-description:      'PNW-Based Software Engineer'
+description:      'Software Engineer'
 url:              http://dakotasanchez.com
 baseurl:          /
 about_me_url:     '/#About me'
-resume_url:		  '/#Résumé'
+resume_url:		  '/#Resume'
 
 author:
   name:           'Dakota Sanchez'
